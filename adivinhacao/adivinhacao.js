@@ -7,7 +7,7 @@ let cont = 0;
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
-  textSize(32);
+  textSize(18);
   textAlign(CENTER);
   
   if(cont < 5){
