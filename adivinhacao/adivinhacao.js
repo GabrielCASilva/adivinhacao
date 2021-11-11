@@ -7,12 +7,12 @@ let cont = 0;
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
-  textSize(12);
+  textSize(14);
   textAlign(CENTER);
   
   if(cont < 5){
     background(255);
-    text("Adivinhe um numero", displayWidth/2, 300);
+    text("Adivinhe um numero", displayWidth/2, displayHeight/2);
     fala.start();
   }else{
     background(255);
