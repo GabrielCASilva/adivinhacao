@@ -12,7 +12,7 @@ function setup() {
   
   if(cont < 5){
     background(255);
-    text("sAdivinhe um numero", displayWidth/2, displayHeight/2);
+    text("Adivinhe um numero", displayWidth/2, displayHeight/2);
     fala.start();
   }
 }
