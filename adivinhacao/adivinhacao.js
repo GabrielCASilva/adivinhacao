@@ -6,7 +6,7 @@ let num = Math.floor(Math.random() * 100);
 let cont = 0;
 
 function setup() {
-  createCanvas(1000, 400);
+  createCanvas(displayWidth, displayHeight);
   textSize(32);
   textAlign(CENTER);
   
