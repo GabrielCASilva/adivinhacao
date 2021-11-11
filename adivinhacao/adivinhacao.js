@@ -12,7 +12,7 @@ function setup() {
   
   if(cont < 5){
     background(255);
-    text("Adivinhe um numero", displayWidth/2, displayHeight/2);
+    text("sAdivinhe um numero", displayWidth/2, displayHeight/2);
     fala.start();
   }
 }
@@ -33,7 +33,9 @@ function textoTela(){
       background(255, 255, 0);
       text(`Errou o número é maior que ${fala.resultString}`, displayWidth/2, displayHeight/2);
       cont++;
-    }else{
+    }
+  
+    if(cont == 5){
       background(255);
       text(`Fim de jogo! Acabaram as tentativas! O número era ${num}`, displayWidth/2, displayHeight/2);
       num = Math.floor(Math.random() * 100);
